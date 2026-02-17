@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+#main{
+    background-image: url(https://cdna.lystit.com/photos/nike/71d8d147/nike-Blue-Structure-26-Road-Running-Shoes.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
