@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./app.css">
     <title>Nike</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="description"
         content="Shop the latest Nike sneakers, sportswear, and accessories. Discover top-quality shoes, clothing, and gear for men, women, and kids.">
     <meta name="keywords"
@@ -123,7 +124,7 @@
         <div class="absolute inset-0 bg-black/60"></div>
 
         <!-- Text content -->
-        <div class="relative z-10 text-center text-white px-4">
+        <div data-aos="zoom-in" class="relative z-10 text-center text-white px-4">
             <h1 class="text-5xl md:text-7xl font-bold drop-shadow-[0_0_20px_rgba(255,255,255,0.9)]">
                 NIKE
             </h1>
@@ -210,7 +211,7 @@
 
         <div class="absolute inset-0 bg-black"></div>
 
-        <div class="relative z-10 flex items-center justify-center h-full text-center text-white">
+        <div data-aos="zoom-in" class="relative z-10 flex items-center justify-center h-full text-center text-white">
             <h1 class="text-5xl md:text-6xl font-bold drop-shadow-[0_0_20px_rgba(255,255,255,0.9)]">
                 Contact Us
             </h1>
@@ -270,7 +271,7 @@
                                     class="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center backdrop-blur-md group-hover:scale-110 transition">
                                     ✉
                                 </div>
-                                <a href="https://nk-online.uz/" class="text-gray-100">info@nike.uz</a>
+                                <a target="_blank" href="https://nk-online.uz/" class="text-gray-100">info@nike.uz</a>
                             </div>
 
                         </div>
@@ -321,7 +322,10 @@
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 
 </html>
